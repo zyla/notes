@@ -7,3 +7,5 @@
 - How [https://github.com/input-output-hk/cardano-sl] uses AcidState, and other storage engines (RocksDB?)
 
 - <https://github.com/AdaptiveConsulting/ReactiveTraderCloud/tree/master/src/server> - DDD example
+
+- [Write You A Haskell](http://dev.stephendiehl.com/fun/) by Stephen Diehl

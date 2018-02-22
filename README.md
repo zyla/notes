@@ -9,3 +9,5 @@
 - <https://github.com/AdaptiveConsulting/ReactiveTraderCloud/tree/master/src/server> - DDD example
 
 - [Write You A Haskell](http://dev.stephendiehl.com/fun/) by Stephen Diehl
+
+- [Software Engineering at Google](https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf)

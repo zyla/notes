@@ -13,3 +13,5 @@
 - [Software Engineering at Google](https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf)
 
 - Source of [polyglot](https://github.com/vmchale/polyglot) (written in ATS)
+
+- Source of [ff](https://github.com/ff-notes/ff) note app - based on CRDTs

@@ -11,3 +11,5 @@
 - [Write You A Haskell](http://dev.stephendiehl.com/fun/) by Stephen Diehl
 
 - [Software Engineering at Google](https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf)
+
+- Source of [polyglot](https://github.com/vmchale/polyglot) (written in ATS)

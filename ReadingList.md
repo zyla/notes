@@ -18,4 +18,4 @@
 
 - <https://github.com/MaiaVictor/cedille-core>
 
-- [Closures are the Generics of Go](https://www.youtube.com/watch?v=5IKcPMJXkKs) - most of this content is deeply confused, but maybe there are some insights there? (problem at 8:50, "solution" at 14:16)
+- [Closures are the Generics of Go](https://www.youtube.com/watch?v=5IKcPMJXkKs) - most of this content is deeply confused, but maybe there are some insights there? (problem at 8:50, "solution" at 14:16, another problem at 16:40)

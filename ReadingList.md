@@ -21,3 +21,5 @@
 - [Closures are the Generics of Go](https://www.youtube.com/watch?v=5IKcPMJXkKs) - maybe there are some insights there? (problem at 8:50, "solution" at 14:16, another problem at 16:40)
 
 - <https://tools.ietf.org/html/draft-thomas-crypto-conditions-02>
+
+- [Lasp: A Language for Distributed, Coordination-Free Programming](http://christophermeiklejohn.com/publications/ppdp-2015-preprint.pdf)

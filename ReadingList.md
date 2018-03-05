@@ -25,3 +25,5 @@
 - [Lasp: A Language for Distributed, Coordination-Free Programming](http://christophermeiklejohn.com/publications/ppdp-2015-preprint.pdf)
 
 - <https://hal.inria.fr/file/index/docid/555588/filename/techreport.pdf>
+
+- [CASPaxos](https://github.com/rystsov/caspaxos/blob/master/latex/caspaxos.pdf)

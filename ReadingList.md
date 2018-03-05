@@ -16,7 +16,7 @@
 
 - Source of [ff](https://github.com/ff-notes/ff) note app - based on CRDTs
 
-- <https://github.com/MaiaVictor/cedille-core>
+- [Cedille-Core](https://github.com/MaiaVictor/cedille-core) - A minimal (<500 LOC) programming language capable of proving theorems about its own terms.
 
 - [Closures are the Generics of Go](https://www.youtube.com/watch?v=5IKcPMJXkKs) - maybe there are some insights there? (problem at 8:50, "solution" at 14:16, another problem at 16:40)
 

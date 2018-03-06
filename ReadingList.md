@@ -27,3 +27,5 @@
 - <https://hal.inria.fr/file/index/docid/555588/filename/techreport.pdf>
 
 - [CASPaxos](https://github.com/rystsov/caspaxos/blob/master/latex/caspaxos.pdf)
+
+- [Optimal Bloom Filter Replacement](http://www.it-c.dk/people/pagh/papers/bloom.pdf)

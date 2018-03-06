@@ -10,8 +10,8 @@ First, let's make up some primitives.
 
 ## BloomBit
 
-A data structure mapping from arbitrary keys to bits. Has a nonzero bit flip
-rate, which I'm too lazy to calculate now.
+A data structure that "stores" one bit per key. Has a nonzero bit flip rate,
+which I'm too lazy to calculate now.
 
 Is a bit vector.
 

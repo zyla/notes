@@ -1,0 +1,60 @@
+AG (forall (i : PI). in_conf i => AF (prepared i))
+
+AG (forall (i : PI). in_conf i => AF (prepared i))
+
+next :: S -> [S]
+
+ag f s = f s && all (ag f) (next s)
+af f s = f s || all (af f) (next s)
+eg f s = f s && any (eg f) (next s)
+ef f s = f s || any (ef f) (next s)
+
+gen_a op f s = op (f s) (all (ag f) (next s))
+
+forall_af x f s = go (x f)
+  where
+    go [] = True
+    go
+
+path = iterate next
+
+G f s = all f (path s)
+F f s = any f (path s)
+
+G f s = foldr1 ((&&) . f) (path s)
+
+G f = foldr1 (&&) . map f . path
+F f = foldr1 (||) . map f . path
+
+G (F f) = foldr1 (&&) . map (foldr1 (||)) . map (map f) . map path . path
+G (F f) = foldr1 (&&) . map (foldr1 (||)) . map (map f) . map (iterate next) . iterate next
+
+
+live s =
+  forall (path s) $ \s' ->
+    exists (path s') $ \s'' ->
+      forall (items s') $ \item ->
+        prepared item s''
+
+live s =
+  forall (path s) $ \s' ->
+    exists (path s') $ \s'' ->
+      prepared (item s') s''
+
+
+F_prep item s = prepared item s || F_prep item (next s)
+
+forall_af :: (S -> [a]) -> (a -> S -> Bool) -> S -> Bool
+forall_af items pred s = all (\item -> af (pred item) s) (items s)
+
+ag f s = f s && forall (next s) (ag f)
+af f s = f s || forall (next s) (af f)
+
+ag = fix $ \ag f s -> f s && all (ag f) (next s)
+
+formula items prepared s =
+ag (forall_af items prepared)
+ag $ \s ->
+  forall (items s) $ \item ->
+   forall (next s) $ \s' ->
+     af (pred item) s' -- || pred item s

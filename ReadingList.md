@@ -29,3 +29,5 @@
 - [CASPaxos](https://github.com/rystsov/caspaxos/blob/master/latex/caspaxos.pdf)
 
 - [Optimal Bloom Filter Replacement](http://www.it-c.dk/people/pagh/papers/bloom.pdf)
+
+- <https://www.researchgate.net/publication/221124906_A_Digital_Watermark>

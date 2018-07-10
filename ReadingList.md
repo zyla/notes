@@ -31,3 +31,5 @@
 - <https://www.researchgate.net/publication/221124906_A_Digital_Watermark>
 
 - [SBFT: a Scalable Decentralized Trust Infrastructure for Blockchains](https://arxiv.org/pdf/1804.01626.pdf)
+
+- [Using Coq to Write Fast and Correct Haskell](https://www.cs.purdue.edu/homes/bendy/Fiat/FiatByteString.pdf)

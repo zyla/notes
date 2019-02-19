@@ -1,16 +1,32 @@
 # Problems described with real world analogies
 
+## Concurrency
+
 - <https://en.wikipedia.org/wiki/Sleeping_barber_problem>
 - <https://en.wikipedia.org/wiki/Dining_philosophers_problem>
+
+## Distributed systems
+
 - Lamport, L.; Shostak, R.; Pease, M. (1982). "The Byzantine Generals Problem"
 - Lamport, Leslie (May 1998). "The Part-Time Parliament" (Paxos)
+
+## Probability
+
 - <https://en.wikipedia.org/wiki/Multi-armed_bandit>
+
+## Cryptography
+
 - <https://en.wikipedia.org/wiki/Dining_cryptographers_problem>
 - [The dining freemasons](http://discovery.ucl.ac.uk/1409374/)
 - <https://en.wikipedia.org/wiki/Mental_poker>
+- <https://en.wikipedia.org/wiki/Yao%27s_Millionaires%27_Problem>
+- <https://en.wikipedia.org/wiki/Socialist_millionaires>
+
+## AI
+
 - <https://en.wikipedia.org/wiki/Yale_shooting_problem>
 
-## Optimization problems (not interesting)
+## Optimization problems
 
 - <https://en.wikipedia.org/wiki/Knapsack_problem>
 - <https://en.wikipedia.org/wiki/Königsberg_bridges_problem>

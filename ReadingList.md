@@ -35,3 +35,5 @@
 - [Using Coq to Write Fast and Correct Haskell](https://www.cs.purdue.edu/homes/bendy/Fiat/FiatByteString.pdf)
 
 - [Seven Sketches in Compositionality](http://math.mit.edu/%7Edspivak/teaching/sp18/7Sketches.pdf)
+
+- [SOME PHILOSOPHICAL PROBLEMS FROM THE STANDPOINT OF ARTIFICIAL INTELLIGENCE](http://www-formal.stanford.edu/jmc/mcchay69.pdf) John McCarthy and Patrick J. Hayes

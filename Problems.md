@@ -4,6 +4,7 @@
 
 - <https://en.wikipedia.org/wiki/Sleeping_barber_problem>
 - <https://en.wikipedia.org/wiki/Dining_philosophers_problem>
+- [Repeat Offender Problem](http://cs.brown.edu/~mph/HerlihyLM02/smli_tr-2002-112.pdf)
 
 ## Distributed systems
 

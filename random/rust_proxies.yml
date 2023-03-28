@@ -1,0 +1,144 @@
+- link: https://crates.io/crates/mirror-cache
+  active: yes
+  popular: kinda
+  http_impl: hyper
+  http_framework: warp
+  cache: true
+  cache_metadata_storage: [redis, disk]
+  cache_storage: [mem, disk, s3]
+  streaming: I assume yes
+  telemetry: [tracing, metrics]
+  extensible_api: unknown
+  acme_tls: false
+  proxy_protocol: false
+
+- link: https://crates.io/crates/pangotls
+  active: kinda
+  popular: not_very_much
+  http_impl: none
+  http_framework: tower
+  cache: false
+  telemetry: false
+  extensible_api: true
+  acme_tls: false
+  proxy_protocol: false
+  notes: |
+    Vaporware, but interesting philosophy: <https://github.com/plabayo/llama/tree/main/rama#goals>
+
+- link: https://github.com/felipenoris/hyper-reverse-proxy
+  active: yes
+  popular: yes
+  http_impl: hyper
+  http_framework: none
+  cache: false
+  streaming: true
+  hop_headers: true
+  websocket: true
+  telemetry: false
+  extensible_api: true
+  acme_tls: false
+  proxy_protocol: false
+  benchmarks: true
+
+- link: https://crates.io/crates/bloom-server
+  active: kinda
+  popular: kinda
+  http_impl: hyper
+  http_framework: none
+  cache: true
+  cache_metadata_storage: [redis]
+  cache_storage: [redis]
+  streaming: true
+  hop_headers: false
+  websocket: unknown
+  telemetry: false
+  extensible_api: false
+  acme_tls: false
+  proxy_protocol: false
+  benchmarks: false
+
+- link: https://crates.io/crates/proxyboi
+  active: kinda
+  popular: kinda
+  http_impl: hyper
+  http_framework: actix-web
+  cache: false
+  streaming: true
+  hop_headers: true
+  websocket: unknown
+  telemetry: false
+  extensible_api: false
+  acme_tls: false
+  proxy_protocol: false
+  benchmarks: false
+
+- link: https://crates.io/crates/rxh
+  active: yes
+  popular: no
+  http_impl: hyper
+  http_framework: none
+  cache: false
+  streaming: true
+  hop_headers: true
+  websocket: unknown
+  telemetry: false
+  extensible_api: false
+  acme_tls: false
+  proxy_protocol: false
+  benchmarks: false
+
+- link: https://crates.io/crates/motorx
+  active: yes
+  popular: kinda
+  http_impl: hyper
+  http_framework: none
+  cache: true
+  cache_metadata_storage: [mem]
+  cache_storage: [mem]
+  cache_http_semantics: false
+  streaming: true
+  hop_headers: true
+  websocket: unknown
+  telemetry: true
+  extensible_api: true
+  acme_tls: false
+  proxy_protocol: false
+  benchmarks: true
+  notes: |
+    Caching is quite simplistic, there seems to be no memory usage limit.
+
+- link: https://fasterthanli.me/articles/request-coalescing-in-async-rust
+
+- link: https://github.com/nyxkrage/rprox
+  active: kinda
+  popular: no
+  http_impl: hyper
+  http_framework: none
+  cache: false
+  streaming: unknown
+  hop_headers: unknown
+  websocket: unknown
+  telemetry: false
+  extensible_api: false
+  acme_tls: false
+  proxy_protocol: false
+  benchmarks: false
+
+- link: https://github.com/bpmason1/fastforward
+  active: kinda
+  popular: no
+  http_impl: hyper
+  http_framework: none
+  cache: false
+  streaming: unknown
+  hop_headers: unknown
+  websocket: unknown
+  telemetry: false
+  extensible_api: true
+  acme_tls: false
+  proxy_protocol: false
+  benchmarks: false
+
+- link: https://crates.io/crates/warp-reverse-proxy
+
+- link: https://crates.io/crates/reverse-proxy-service
